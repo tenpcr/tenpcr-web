@@ -1,0 +1,123 @@
+{
+  "greeting": "Hello",
+  "slogan": "Using technology to create positive experiences, deliver convenience, and solve problems for businesses and people.",
+  "info_fullname": "Pachara Peerakuntanet",
+  "my_projects": "My Projects",
+  "my_skills": "My Skills",
+  "about": "About",
+  "about_me": "About me",
+  "blog": "Blog",
+  "home": "Home",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "web_name": "Pachara Peerakuntanet",
+  "web_title_with_page_name": "{{page_name}} - {{web_name}}",
+  "awards": "Awards",
+  "experience": "Experience",
+  "education": "Education",
+  "name": "Name",
+  "phone": "Phone",
+  "email": "Email",
+  "message": "Message",
+  "send_message": "Send Message",
+  "companies_worked": "Companies I’ve worked for",
+  "language_changed_successfully": "Language changed successfully",
+  "services": "Services",
+
+  "info_about": {
+    "introduce": "I'm Pachara Peerakuntanet — a Full Stack Developer with experience in building both web and mobile applications, covering both front-end and back-end development. I am comfortable working with a wide range of technologies, including TypeScript, Node.js, React.js, React Native CLI, Express.js, Flutter, Go, PHP, and WordPress, as well as databases such as MySQL and MongoDB. <br><br>With a background in graphic design, I have a strong understanding of UX/UI principles, which enables me to create intuitive and user-centered applications. I also have hands-on experience deploying and maintaining systems on cloud platforms such as Google Cloud, DigitalOcean, and Linux-based servers. I am always eager to learn new technologies and adapt quickly to fast-paced, ever-evolving development environments.",
+    "short_about": "With over 13 years of experience in graphic design, video production, digital marketing, event organization, and web development."
+  },
+
+  "info_experience": {
+    "common_ground": {
+      "position": "Senior Developer, Team lead",
+      "company": "Common Ground Co., Ltd.",
+      "detail": "Developed a SaaS-based web application using JavaScript, with Next.js for the frontend, Express.js for the backend, and MongoDB as the primary database. Utilized GitLab for CI/CD processes and deployed the application on DigitalOcean using CentOS. The core project was “Kross,” a Martech platform designed to manage marketing operations, developed specifically for internal use within the organization.<br><br> Additionally, managed a development team responsible for delivering websites for client companies, while also providing customer support to ensure smooth website functionality and resolve technical issues. Tools and technologies used include WordPress, PHP, Line Notify, Line Messaging API, Zapier, Google Apps Script, among others."
+    },
+    "appkin": {
+      "position": "UX/UI Designer",
+      "company": "Appkin Software House Co., Ltd.",
+      "detail": "Designed UX/UI using Adobe XD for APPKIN, a food delivery application serving Songkhla province, with over 100 participating stores. The company operates three applications: APPKIN Delivery, APPKIN Employee, and APPKIN Rider.<br><br> Additionally, developed the company’s website using PHP, jQuery, CSS, and Bootstrap. Also responsible for graphic design using Adobe Photoshop and Adobe Illustrator, as well as video editing with Adobe Premiere Pro."
+    },
+    "music_mania": {
+      "position": "Digital Marketing",
+      "company": "Music Mania Band Accessories And Parts Co., Ltd.",
+      "detail": "Experienced in digital marketing and graphic design for sales promotion. Responsible for managing and developing a musical instrument e-commerce website using WordPress and WooCommerce, along with creating promotional materials for both online and offline channels.<br><br> Also responsible for managing client events, including planning, coordinating with vendors such as equipment rental companies, venue providers, audio and lighting teams, advertising producers, and other suppliers, on-site supervision, and producing motion graphic videos for LED screen displays using Adobe Photoshop, Illustrator, Premiere Pro, After Effects, and other tools."
+    },
+    "suchat_telecom": {
+      "position": "Graphic Designer, Video Editor",
+      "company": "Hatyai Cable 93 (Suchat Telecom Co.,Ltd.)",
+      "detail": "Designed graphic media and edited video content for “93News,” a local news program broadcast on a provincial television channel in Songkhla. Oversaw in-studio production, controlled recording sessions, and worked as a field videographer.<br><br> Also experienced in creating 3D models used as virtual backgrounds for news segments with green screen technology."
+    },
+    "spadek_songkhla": {
+      "position": "Vice President",
+      "company": "The Children and Youth Council of Songkhla",
+      "detail": "The Youth Council plays an important role in promoting and developing children and youth. It serves as a platform that empowers young people to express their opinions, offer suggestions, and participate in addressing issues related to children and youth.<br><br> In addition, the Council functions as a learning hub and organizes activities to foster skills, knowledge, morality, and ethics among children and youth."
+    },
+    "cydot_songkhla": {
+      "position": "Public Relationship Officer",
+      "company": "The Coordinating Center of Youths against Drugs Organizations of Thailand (Songkhla)",
+      "detail": "The Coordinating Center of Youths against Drugs Organizations of Thailand (C.Y.D.O.T.) is a youth anti-drug network supervised by the Office of the Narcotics Control Board (ONCB). It operates through a structured system covering the national, regional, and provincial levels."
+    },
+    "sunshine_hatyai": {
+      "position": "Creative, Radio Host (DJ.)",
+      "company": "103 Sunshine Radio Hatyai (Sunshine Hatyai Co., Ltd.)",
+      "detail": "Responsible for hosting radio programs as a DJ, creatively producing graphic and video media for the radio station, and organizing concerts and event management."
+    },
+    "easy_radio": {
+      "position": "Radio Host (DJ.)",
+      "company": "Easy Radio 100 MHz. Songkhla",
+      "detail": "Responsible for hosting radio programs as a DJ."
+    }
+  },
+
+  "info_education": {
+    "stou": {
+      "institution": "Sukhothai Thammathirat Open University",
+      "degree": "Bachelor's Degree in Communication Arts",
+      "major": "Advertising"
+    },
+    "svc": {
+      "institution": "Songkhla Vocational College",
+      "degree": "Vocational Certificate",
+      "major": "Computer Graphic"
+    }
+  },
+
+  "info_awards": {
+    "award1": {
+      "name": "Model Citizen of the Nation (รางวัลต้นแบบคนดีศรีแผ่นดิน)",
+      "period": "",
+      "detail": "Nominated for the 'Model Citizen of the Nation' award in 2011 by the Deputy Governor of Songkhla Province in recognition of dedicated public service and volunteer work."
+    },
+    "award2": {
+      "name": "Model Citizen of the Nation (รางวัลต้นแบบคนดีศรีแผ่นดิน)",
+      "period": "",
+      "detail": "Nominated for the 'Model Citizen of the Nation' award in 2013 by the Deputy Governor of Songkhla Province in recognition of dedicated public service and volunteer work."
+    }
+  },
+
+  "info_services": {
+    "website": {
+      "head": "Website",
+      "description": "Developing websites and web applications using React, PHP, and WordPress with over 13 years of experience."
+    },
+    "mobile": {
+      "head": "Mobile application",
+      "description": "Developing cross-platform mobile applications that run seamlessly on both iOS and Android."
+    },
+    "desktop": {
+      "head": "Desktop application",
+      "description": "Developing desktop applications using Electron.js."
+    },
+    "bot": {
+      "head": "Bot",
+      "description": "Developing intelligent assistants that enhance convenience, including Line Messaging API and EA Forex solutions."
+    },
+    "uxui": {
+      "head": "UX/UI",
+      "description": "Designing attractive, modern, and user-friendly interfaces for websites and applications to enhance the overall user experience."
+    }
+  }
+}

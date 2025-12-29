@@ -49,14 +49,14 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: `/blog/${
+      canonical: `${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog/${
         post.slug ? `${post?.slug}-${post?.id}` : `content-${post?.id}`
       }`,
     },
     openGraph: {
       title,
       description,
-      url: `/blog/${
+      url: `${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog/${
         post.slug ? `${post?.slug}-${post?.id}` : `content-${post?.id}`
       }`,
       siteName: "TenPCR",

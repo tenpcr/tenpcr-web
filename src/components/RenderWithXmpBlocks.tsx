@@ -49,7 +49,7 @@ export default function RenderWithXmpBlocks({ html }: { html: string }) {
   }
 
   return (
-    <div className="text-[1em] [&_h2]:text-[1.5em] [&_h3]:text-[1.2em] [&_ul]:list-disc">
+    <div className="[&_div.elementor-element]:py-[10px] text-[18px] text-gray-800 font-light leading-[1.8em] [&_a]:text-blue-700 [&_a]:underline [&_h2]:text-[25px] [&_h3]:text-[18px] [&_h3]:py-[10px] [&_p]:py-[5px] [&_p]:text-[18px] [&_ul]:text-[16px] [&_ul]:py-[10px] [&_li]:text-[16px] [&_ul]:my-[5px] [&_ul]:list-disc [&_ul]:marker:text-blue-800 [&_ul]:px-[30px] [&_img]:my-[10px]">
       {elements}
     </div>
   );

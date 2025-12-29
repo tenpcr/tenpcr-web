@@ -2,7 +2,6 @@
 "use client";
 
 import PortfolioItem from "./PorfolioItem";
-import SEO from "@/utils/SEO";
 import Link from "next/link";
 import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -278,12 +277,6 @@ function PortfolioMain() {
 
   return (
     <>
-      <SEO
-        title="ผลงานของเรา"
-        metaTitle="ผลงานของเรา"
-        canonical={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/portfolio`}
-      />
-
       <main>
         <div className="w-full px-[25px] py-[40px]">
           <div className="w-[1280px] max-w-full mx-auto flex flex-col gap-[20px]">

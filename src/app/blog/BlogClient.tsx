@@ -10,7 +10,6 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import * as blogService from "@/services/blogService";
 import BlogItem from "@/components/article/ArticleItem";
 import PlaceholderLoading from "react-placeholder-loading";
-import SEO from "@/utils/SEO";
 
 interface ArticleLists {
   id: number;
@@ -228,25 +227,6 @@ function BlogMain() {
   return (
     <div>
       <header>
-        <SEO
-          title="บทความ การเงิน และสินเชื่อ"
-          metaTitle="บทความการเงิน และสินเชื่อ"
-          description="รวมบทความการเงิน สินเชื่อบ้าน สินเชื่อส่วนบุคคล บัตรเครดิต บัตรกดเงินสด และเคล็ดลับความรู้เกี่ยวกับผลิตภัณฑ์การเงินต่างๆ"
-          keywords={[
-            "บทความการเงิน",
-            "ความรู้การเงิน",
-            "บทความสินเชื่อ",
-            "สินเชื่อส่วนบุคคล",
-            "สินเชื่อบ้าน",
-            "บัตรเครดิต",
-            "บัตรกดเงินสด",
-            "วางแผนการเงิน",
-            "ผลิตภัณฑ์การเงิน",
-            "ความรู้เรื่องสินเชื่อ",
-          ]}
-          canonical={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog`}
-          metaOGUrl={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog`}
-        />
         <NavBar />
       </header>
 

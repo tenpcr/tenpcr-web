@@ -2,16 +2,14 @@
 "use client";
 
 import { articleDateTimeFormat } from "../../utils/dateTime.helper";
-import SEO from "@/utils/SEO";
 import { FaRegClock, FaFacebook } from "react-icons/fa";
 import { SiLine } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import Header from "../Header";
 import Footer from "../Footer";
 import Link from "next/link";
-import Script from "next/script";
-import Head from "next/head";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 const RenderWithXmpBlocks = dynamic(() => import("../RenderWithXmpBlocks"), {
   ssr: false,
@@ -26,18 +24,27 @@ function ArticleView({ data, cssLink }: ArticleProps) {
   return (
     <div>
       <header>
-        <SEO
-          title={data?.title}
-          metaTitle={data?.title}
-          keywords={data?.tags?.map((tag: any) => tag?.name) || []}
-          description={data?.yoast_head_json?.description || ""}
-          thumbnail={data?.thumbnail}
-          canonical={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog/${data?.slug}-${data?.id}`}
-          metaOGUrl={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/blog/${data?.slug}-${data?.id}`}
-          stylesheets={[cssLink]}
-        />
-
         <Header />
+        <Head>
+          <link
+            rel="stylesheet"
+            id="elementor-frontend-css"
+            href="https://web.f5.in.th/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.23.4"
+            type="text/css"
+            media="all"
+          />
+          <link
+            rel="stylesheet"
+            id="elementor-post-531-css"
+            href={`${
+              process.env.NEXT_PUBLIC_SERVER_BLOG_API
+            }/wp-content/uploads/elementor/css/post-${
+              data?.id
+            }.css?ver=${Date.now()?.toString()}`}
+            type="text/css"
+            media="all"
+          />
+        </Head>
       </header>
       <main>
         <div>

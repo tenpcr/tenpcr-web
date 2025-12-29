@@ -2,7 +2,6 @@
 import Footer from "../Footer";
 import NavBar from "../Header";
 import dynamic from "next/dynamic";
-import SEO from "@/utils/SEO";
 import he from "he";
 import Link from "next/link";
 
@@ -19,18 +18,6 @@ function PortfolioView({ data, cssLink }: { data: any; cssLink: string }) {
   return (
     <div className="bg-white">
       <header>
-        <SEO
-          title={he.decode(data?.title || defaultTitle)}
-          metaTitle={he.decode(
-            data?.yoast_head_json?.title || data?.title || defaultTitle
-          ) + ""}
-          description={data?.yoast_head_json?.description || ""}
-          keywords={data?.tags?.map((tag: any) => tag?.name) || []}
-          stylesheets={[cssLink]}
-          thumbnail={data?.image}
-          canonical={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/portfolio/${data?.id}/${data?.slug}`}
-          metaOGUrl={`${process.env.NEXT_PUBLIC_MAIN_BASE_URL}/portfolio/${data?.id}/${data?.slug}`}
-        />
         <NavBar />
       </header>
 

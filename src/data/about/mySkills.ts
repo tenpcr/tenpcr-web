@@ -51,40 +51,20 @@ export const skillsLogo: MySkillsType[] = [
     logoUrl: "/images/logo/skills/color/logo-docker.png",
     logoWhite: "/images/logo/skills/white/logo-docker-white.webp",
   },
-    {
+  {
     name: "n8n",
     logoUrl: "/images/logo/skills/color/logo-n8n.webp",
     logoWhite: "/images/logo/skills/white/logo-n8n-white.webp",
   },
   {
-    name: "Adobe Photoshop",
-    logoUrl: "/images/logo/skills/color/logo-photoshop.png",
-    logoWhite: "/images/logo/skills/white/logo-photoshop-white.webp",
+    name: "Ollama",
+    logoUrl: "/images/logo/skills/color/logo-ollama.webp",
+    logoWhite: "/images/logo/skills/white/logo-ollama-white.webp",
   },
   {
-    name: "Adobe Illustrator.",
-    logoUrl: "/images/logo/skills/color/logo-illustrator.png",
-    logoWhite: "/images/logo/skills/white/logo-illustrator-white.webp",
-  },
-  {
-    name: "Adobe XD",
-    logoUrl: "/images/logo/skills/color/logo-adobe-xd.png",
-    logoWhite: "/images/logo/skills/white/logo-adobe-xd-white.webp",
-  },
-  {
-    name: "Adobe Premiere Pro",
-    logoUrl: "/images/logo/skills/color/logo-adobe-premiere-pro.png",
-    logoWhite: "/images/logo/skills/white/logo-adobe-premiere-pro-white.webp",
-  },
-  {
-    name: "Adobe After Effect",
-    logoUrl: "/images/logo/skills/color/logo-adobe-after-effect.png",
-    logoWhite: "/images/logo/skills/white/logo-adobe-after-effect-white.webp",
-  },
-  {
-    name: "Adobe Audiiton",
-    logoUrl: "/images/logo/skills/color/logo-adobe-audition.png",
-    logoWhite: "/images/logo/skills/white/logo-adobe-audition-white.webp",
+    name: "Socket.io",
+    logoUrl: "/images/logo/skills/color/logo-socketio.png",
+    logoWhite: "/images/logo/skills/white/logo-socketio-white.webp",
   },
   {
     name: "PHP",
@@ -152,11 +132,6 @@ export const skillsLogo: MySkillsType[] = [
     logoWhite: "/images/logo/skills/white/logo-meta-white.webp",
   },
   {
-    name: "Socket.io",
-    logoUrl: "/images/logo/skills/color/logo-socketio.png",
-    logoWhite: "/images/logo/skills/white/logo-socketio-white.webp",
-  },
-  {
     name: "Tiktok for Developer",
     logoUrl: "/images/logo/skills/color/logo-tiktok-developer.png",
     logoWhite: "/images/logo/skills/white/logo-tiktok-dev-white.webp",
@@ -170,5 +145,35 @@ export const skillsLogo: MySkillsType[] = [
     name: "Google Apps Script",
     logoUrl: "/images/logo/skills/color/logo-apps-script.png",
     logoWhite: "/images/logo/skills/white/logo-apps-script-white.webp",
+  },
+  {
+    name: "Adobe Photoshop",
+    logoUrl: "/images/logo/skills/color/logo-photoshop.png",
+    logoWhite: "/images/logo/skills/white/logo-photoshop-white.webp",
+  },
+  {
+    name: "Adobe Illustrator.",
+    logoUrl: "/images/logo/skills/color/logo-illustrator.png",
+    logoWhite: "/images/logo/skills/white/logo-illustrator-white.webp",
+  },
+  {
+    name: "Adobe XD",
+    logoUrl: "/images/logo/skills/color/logo-adobe-xd.png",
+    logoWhite: "/images/logo/skills/white/logo-adobe-xd-white.webp",
+  },
+  {
+    name: "Adobe Premiere Pro",
+    logoUrl: "/images/logo/skills/color/logo-adobe-premiere-pro.png",
+    logoWhite: "/images/logo/skills/white/logo-adobe-premiere-pro-white.webp",
+  },
+  {
+    name: "Adobe After Effect",
+    logoUrl: "/images/logo/skills/color/logo-adobe-after-effect.png",
+    logoWhite: "/images/logo/skills/white/logo-adobe-after-effect-white.webp",
+  },
+  {
+    name: "Adobe Audiiton",
+    logoUrl: "/images/logo/skills/color/logo-adobe-audition.png",
+    logoWhite: "/images/logo/skills/white/logo-adobe-audition-white.webp",
   },
 ];

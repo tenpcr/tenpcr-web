@@ -51,6 +51,11 @@ export const skillsLogo: MySkillsType[] = [
     logoUrl: "/images/logo/skills/color/logo-docker.png",
     logoWhite: "/images/logo/skills/white/logo-docker-white.webp",
   },
+    {
+    name: "n8n",
+    logoUrl: "/images/logo/skills/color/logo-n8n.webp",
+    logoWhite: "/images/logo/skills/white/logo-n8n-white.webp",
+  },
   {
     name: "Adobe Photoshop",
     logoUrl: "/images/logo/skills/color/logo-photoshop.png",

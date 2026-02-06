@@ -55,7 +55,7 @@ function Welcome() {
               {t("info_fullname")}
             </div>
             <div className="mt-[5px] text-[22px] xl:text-[30px]  font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#0241F1] to-blue-300">
-              Senior Full-Stack Developer
+              Full-Stack Developer
             </div>
             <div className="mt-[15px] text-[18px] md:text-[20px] font-light leading-[1.7em] text-gray-100">
               {t("info_about.short_about")}

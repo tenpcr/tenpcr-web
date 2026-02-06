@@ -1,6 +1,12 @@
 import { ExperienceType } from "@/types/experience";
 
 export const experience: ExperienceType[] = [
+    {
+    period: "Feb 2025 - Present",
+    position: "info_experience.alixy.position",
+    company: "info_experience.alixy.company",
+    detail: "info_experience.alixy.detail",
+  },
   {
     period: "Aug 2022 - Feb 2025",
     position: "info_experience.common_ground.position",

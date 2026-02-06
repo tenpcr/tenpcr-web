@@ -26,10 +26,15 @@
   "services": "บริการ",
 
   "info_about": {
-    "introduce": "ผมชื่อ พชร พีรกุลธเนศ — Full Stack Developer มีประสบการณ์ในการพัฒนา Web Application และ Mobile Application ทั้งในส่วน Front-end และ Back-end สามารถใช้เทคโนโลยีสำหรับการพัฒนาได้หลากหลาย เช่น TypeScript, Node.js, React.js, React Native CLI, Express.js, Flutter, Go, PHP และ WordPress และฐานข้อมูล MySQL และ MongoDB <br><br>มีพื้นฐานด้าน UX/UI จากประสบการณ์การทำงานในสาย Graphic Design ซึ่งช่วยให้สามารถออกแบบและพัฒนาแอปพลิเคชันที่ตอบโจทย์ผู้ใช้งานได้เป็นอย่างดี นอกจากนี้ยังมีประสบการณ์ในการ Deploy และดูแลระบบบน Cloud เช่น Google Cloud, DigitalOcean และเซิร์ฟเวอร์ Linux มีความกระตือรือร้นในการเรียนรู้เทคโนโลยีใหม่ ๆ และสามารถปรับตัวกับการทำงานในสภาพแวดล้อมที่เปลี่ยนแปลงได้ดี",
+    "introduce": "ทำงานในสายงาน Full Stack Developer โดยเน้นการพัฒนาแอปพลิเคชันทั้งบนเว็บและมือถือ ผ่านการทำงานด้วยภาษา JavaScript, TypeScript และ Go รวมถึงมีความคุ้นเคยกับ Framework ต่างๆ ไม่ว่าจะเป็น Node.js, Nest.js, React หรือ Flutter อีกทั้งยังดูแลงานด้าน PHP, WordPress และระบบฐานข้อมูล MySQL, PostgreSQL และ MongoDB<br><br>มีพื้นฐานด้านกราฟิกดีไซน์และ UX/UI ออกแบบแอปพลิเคชันให้ใช้งานได้ง่ายและตอบโจทย์ผู้ใช้ นอกจากนี้ยังมีประสบการณ์การดูแลระบบบน Google Cloud และ DigitalOcean โดยใช้เครื่องมือพื้นฐานอย่าง Docker, Nginx และ Git บนระบบปฏิบัติการ Linux",
     "short_about": "ด้วยประสบการณ์การทำงานในด้านกราฟิกดีไซน์ ผลิตวิดีโอ การตลาดดิจิทัล ออแกไนซ์ และพัฒนาเว็บไซต์ รวมกว่า 13 ปี"
   },
   "info_experience": {
+    "alixy": {
+      "position": "Full Stack Developer (Freelance)",
+      "company": "Alixy Digital (alixy.co)",
+      "detail": "พัฒนาเว็บแอปพลิเคชัน และโมบายแอปพลิเคชัน และเป็นที่ปรึกษาด้านดิจิทัลมาร์เก็ตติ้งให้กับลูกค้าที่เป็นธุรกิจ SME ขนาดเล็ก"
+    },
     "common_ground": {
       "position": "Developer",
       "company": "บริษัท คอมม่อน กราวด์ จำกัด",

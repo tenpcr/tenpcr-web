@@ -25,11 +25,16 @@
   "services": "Services",
 
   "info_about": {
-    "introduce": "I'm Pachara Peerakuntanet — a Full Stack Developer with experience in building both web and mobile applications, covering both front-end and back-end development. I am comfortable working with a wide range of technologies, including TypeScript, Node.js, React.js, React Native CLI, Express.js, Flutter, Go, PHP, and WordPress, as well as databases such as MySQL and MongoDB. <br><br>With a background in graphic design, I have a strong understanding of UX/UI principles, which enables me to create intuitive and user-centered applications. I also have hands-on experience deploying and maintaining systems on cloud platforms such as Google Cloud, DigitalOcean, and Linux-based servers. I am always eager to learn new technologies and adapt quickly to fast-paced, ever-evolving development environments.",
+    "introduce": "I'm Pachara Peerakuntanet — a Full Stack Developer with a solid background in developing web and mobile applications. Experienced in JavaScript, TypeScript, and Go, working with frameworks such as Node.js, Nest.js Express.js, React.js, React Native, and Flutter. Also skilled in PHP, WordPress, and database management using MySQL, PostgreSQL, and MongoDB.<br><br> With a background in graphic design and a strong understanding of UX/UI principles, I create intuitive, user-centered applications. I have hands-on experience in deploying and maintaining systems on cloud platforms including Google Cloud and DigitalOcean, utilizing tools like Nginx, Docker, and Git on Linux environments.",
     "short_about": "With over 13 years of experience in graphic design, video production, digital marketing, event organization, and web development."
   },
 
   "info_experience": {
+    "alixy": {
+      "position": "Full Stack Developer (Freelance)",
+      "company": "Alixy Digital (alixy.co)",
+      "detail": "Responsible for web and mobile application development, along with digital marketing consultancy for SME clients."
+    },
     "common_ground": {
       "position": "Developer",
       "company": "Common Ground Co., Ltd.",

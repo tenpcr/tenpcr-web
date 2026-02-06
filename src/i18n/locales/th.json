@@ -31,9 +31,9 @@
   },
   "info_experience": {
     "common_ground": {
-      "position": "Senior Developer, Team lead",
+      "position": "Developer",
       "company": "บริษัท คอมม่อน กราวด์ จำกัด",
-      "detail": "พัฒนาเว็บไซต์ในรูปแบบ SaaS ด้วยภาษา JavaScript โดยใช้ Next.js สำหรับฝั่ง Frontend, Express.js สำหรับฝั่ง Backend และ MongoDB เป็นฐานข้อมูลหลัก พร้อมทั้งใช้ GitLab สำหรับกระบวนการ CI/CD และติดตั้งระบบบน DigitalOcean โดยใช้ CentOS เพื่อรันแอปพลิเคชัน โดยพัฒนาระบบ “Kross” — Martech Platform สำหรับบริหารจัดการงานด้านการตลาด ที่พัฒนาขึ้นเพื่อใช้งานภายในองค์กร<br><br> นอกจากนี้ ยังทำหน้าที่บริหารทีมพัฒนาเว็บไซต์ให้กับบริษัทของลูกค้า พร้อมให้บริการด้าน Customer Support เพื่อสนับสนุนการใช้งานเว็บไซต์ให้เป็นไปอย่างราบรื่น พร้อมทั้งแก้ไขปัญหาที่เกิดขึ้น โดยใช้เครื่องมือต่างๆ เช่น WordPress, PHP, Line Notify, Line Message API, Zapier และ Google Apps Script เป็นต้น"
+      "detail": "พัฒนาเว็บไซต์ในรูปแบบ SaaS ด้วยภาษา JavaScript โดยใช้ Next.js สำหรับฝั่ง Frontend, Nest.js สำหรับฝั่ง Backend และ MongoDB เป็นฐานข้อมูลหลัก พร้อมทั้งใช้ GitLab สำหรับกระบวนการ CI/CD และติดตั้งระบบบน DigitalOcean โดยใช้ CentOS เพื่อรันแอปพลิเคชัน โดยพัฒนาระบบ “Kross” — Martech Platform สำหรับบริหารจัดการงานด้านการตลาด ที่พัฒนาขึ้นเพื่อใช้งานภายในองค์กร<br><br> นอกจากนี้ ยังทำหน้าที่บริหารทีมพัฒนาเว็บไซต์ให้กับบริษัทของลูกค้า พร้อมให้บริการด้าน Customer Support เพื่อสนับสนุนการใช้งานเว็บไซต์ให้เป็นไปอย่างราบรื่น พร้อมทั้งแก้ไขปัญหาที่เกิดขึ้น โดยใช้เครื่องมือต่างๆ เช่น WordPress, PHP, Line Notify, Line Message API, Zapier และ Google Apps Script เป็นต้น"
     },
     "appkin": {
       "position": "UX/UI Designer",

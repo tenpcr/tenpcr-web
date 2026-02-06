@@ -31,9 +31,9 @@
 
   "info_experience": {
     "common_ground": {
-      "position": "Senior Developer, Team lead",
+      "position": "Developer",
       "company": "Common Ground Co., Ltd.",
-      "detail": "Developed a SaaS-based web application using JavaScript, with Next.js for the frontend, Express.js for the backend, and MongoDB as the primary database. Utilized GitLab for CI/CD processes and deployed the application on DigitalOcean using CentOS. The core project was “Kross,” a Martech platform designed to manage marketing operations, developed specifically for internal use within the organization.<br><br> Additionally, managed a development team responsible for delivering websites for client companies, while also providing customer support to ensure smooth website functionality and resolve technical issues. Tools and technologies used include WordPress, PHP, Line Notify, Line Messaging API, Zapier, Google Apps Script, among others."
+      "detail": "Developed a SaaS-based web application using JavaScript, with Next.js for the frontend, Nest.js for the backend, and MongoDB as the primary database. Utilized GitLab for CI/CD processes and deployed the application on DigitalOcean using CentOS. The core project was “Kross,” a Martech platform designed to manage marketing operations, developed specifically for internal use within the organization.<br><br> Additionally, managed a development team responsible for delivering websites for client companies, while also providing customer support to ensure smooth website functionality and resolve technical issues. Tools and technologies used include WordPress, PHP, Line Notify, Line Messaging API, Zapier, Google Apps Script, among others."
     },
     "appkin": {
       "position": "UX/UI Designer",

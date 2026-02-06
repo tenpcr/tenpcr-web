@@ -60,7 +60,7 @@ function MainPage() {
               <span className="text-gray-500 font-medium underline-offset-5 underline decoration-4 decoration-[#0241F1]">
                 {t("info_fullname")},
               </span>{" "}
-              Senior Full-Stack Developer
+              Full-Stack Developer
             </div>
           </div>
         </div>

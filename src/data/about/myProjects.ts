@@ -13,21 +13,21 @@ export const myProjects: MyProjectTypes[] = [
     detail:
       "แพลตฟอร์มเปรียบเทียบราคาสินค้าและบริการออนไลน์ที่ครบวงจร ให้คุณได้เช็คราคาสินค้าและเปรียบเทียบข้อเสนอจากร้านค้าออนไลน์ชั้นนำในประเทศได้อย่างสะดวกและรวดเร็ว รวมไว้ซึ่งโปรโมชั่นพิเศษ ดีลสุดคุ้ม และข้อมูลสินค้าที่ครบถ้วน เพื่อให้คุณสามารถตัดสินใจซื้อสินค้าได้อย่างมั่นใจ ทั้งหมดนี้มาพร้อมกับบริการฟรี ไม่มีค่าใช้จ่ายเพิ่มเติม ช่วยให้การช้อปปิ้งออนไลน์ของคุณง่ายขึ้นและคุ้มค่ากว่าเดิม",
     images: [{ src: "/images/projects/project-pricedays-01.jpg" }],
-    url: "https://www.pricedays.com",
+    url: "https://price.thaiup.net",
   },
   {
     name: "Jobviewer",
     detail:
       "แพลตฟอร์มหางานและสมัครงานออนไลน์ พร้อมระบบประกาศงาน และฝากเรซูเม่สำหรับผู้ใช้งานทั่วไป",
     images: [{ src: "/images/projects/project-jobviewer-01.jpg" }],
-    url: "https://www.jobviewer.co",
+    url: "https://jobs.thaiup.net",
   },
   {
     name: "F5.in.th",
     detail:
       "เว็บไซต์นำเสนอเรื่องราวเกี่ยวเทคโนโลยี ไลฟ์สไตล์ การตลาดดิจิทัล การท่องเที่ยว อสังหาริมทรัพย์ และยานยนต์",
     images: [{ src: "/images/projects/project-f5-01.jpg" }],
-    url: "https://www.f5.in.th",
+    url: "https://www.thaiup.net",
   },
     {
     name: "RadioLism",

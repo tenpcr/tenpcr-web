@@ -8,9 +8,45 @@ import { myProjects } from "@/data/about/myProjects";
 import { MyProjectTypes } from "@/types/myProjects";
 import Link from "next/link";
 
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Box from "@mui/material/Box";
+
+interface TabPanelProps {
+  children?: React.ReactNode;
+  index: number;
+  value: number;
+}
+
+function CustomTabPanel(props: TabPanelProps) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+    </div>
+  );
+}
+
+function a11yProps(index: number) {
+  return {
+    id: `simple-tab-${index}`,
+    "aria-controls": `simple-tabpanel-${index}`,
+  };
+}
+
 function MainLayoutMyProjects() {
   const { t } = useTranslation();
   const [tabIndex, setTabIndex] = useState(0);
+
+  const [value, setValue] = useState(0);
+
   const [ref, isInView] = useInView<HTMLDivElement>({
     threshold: 0.2,
   });
@@ -22,6 +58,10 @@ function MainLayoutMyProjects() {
       setHasAnimated(true);
     }
   }, [isInView, hasAnimated]);
+
+  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    setValue(newValue);
+  };
 
   return (
     <div className="bg-[url(/images/bg-main-01.webp)] bg-opacity-10 bg-cover bg-no-repeat bg-linear-to-r from-blue-700 to-blue-900 pt-[50px] pb-[70px] flex flex-col gap-[20px]">
@@ -42,66 +82,70 @@ function MainLayoutMyProjects() {
 
             <div className="font-medium text-[16px]">My projects</div>
           </div>
+        </div>
 
-          <div className="flex flex-row w-full bg-gray-100">
-            <div className="w-full pt-[10px] px-[10px] flex gap-[10px] w-full overflow-x-auto whitespace-nowrap">
+        <Box sx={{ width: "100%"}} className="mt-[-20px]">
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              aria-label="basic tabs example"
+            >
+              {" "}
               {myProjects?.map(
                 (myProjectsItem: MyProjectTypes, myProjectsIndex: number) => (
-                  <div
-                    key={myProjectsIndex}
-                    onClick={() => {
-                      setTabIndex(myProjectsIndex);
-                    }}
-                    className={`${
-                      tabIndex === myProjectsIndex
-                        ? "bg-white font-medium"
-                        : "text-gray-500 font-light cursor-pointer bg-gray-100 hover:bg-gray-50 active:bg-gray-100"
-                    } rounded-t-[10px] py-[10px] px-[15px] `}
-                  >
-                    {myProjectsItem?.name}
-                  </div>
-                )
+                  <Tab
+                    label={myProjectsItem?.name}
+                    {...a11yProps(myProjectsIndex)}
+                  />
+                ),
               )}
-            </div>
-          </div>
-        </div>
-
-        <div className="flex p-[50px]">
-          {myProjects
-            ?.filter((_, index) => index === tabIndex)
-            .map((myProjectsItem: MyProjectTypes, index: number) => (
-              <div key={index} className="flex flex-col md:flex-row gap-[50px]">
-                <div className="w-full xl:w-[50%] transition delay-100 duration-300 hover:-translate-y-1 hover:scale-107">
-                  {myProjectsItem?.images?.length > 0 && (
-                    <img src={myProjectsItem?.images[0]?.src}  alt={myProjectsItem?.name} />
-                  )}
-                </div>
-                <motion.div
-                  ref={ref}
-                  initial={{ opacity: 0, y: 50 }}
-                  animate={hasAnimated ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.6, ease: "easeOut" }}
-                  className="w-full xl:w-[50%]"
-                >
-                  <div className="text-[22px] xl:text-[35px] font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-400">
-                    {myProjectsItem?.name}
+            </Tabs>
+          </Box>
+          {myProjects?.map(
+            (myProjectsItem: MyProjectTypes, myProjectsIndex: number) => (
+              <CustomTabPanel
+                value={value}
+                index={myProjectsIndex}
+                key={myProjectsIndex}
+              >
+                <div className="flex flex-col md:flex-row gap-[50px]">
+                  <div className="w-full xl:w-[50%] transition delay-100 duration-300 hover:-translate-y-1 hover:scale-107">
+                    {myProjectsItem?.images?.length > 0 && (
+                      <img
+                        src={myProjectsItem?.images[0]?.src}
+                        alt={myProjectsItem?.name}
+                      />
+                    )}
                   </div>
-                  <div className="text-gray-500 text-[16px] xl:text-[18px] font-extralight mt-[30px] leading-[1.7em]">
-                    {myProjectsItem?.detail}
-                  </div>
-                  {myProjectsItem?.url && (
-                    <div className="mt-[20px]">
-                      <Link href={myProjectsItem?.url} target="_blank">
-                        <button className="cursor-pointer rounded min-w-[200px] border border-blue-600 hover:bg-blue-700 active:bg-blue-800 py-[10px] px-[10px] text-[16px] text-blue-600 hover:text-white font-regular">
-                          เข้าสู่เว็บไซต์
-                        </button>
-                      </Link>
+                  <motion.div
+                    ref={ref}
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={hasAnimated ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="w-full xl:w-[50%]"
+                  >
+                    <div className="text-[22px] xl:text-[35px] font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-400">
+                      {myProjectsItem?.name}
                     </div>
-                  )}
-                </motion.div>
-              </div>
-            ))}
-        </div>
+                    <div className="text-gray-500 text-[16px] xl:text-[18px] font-extralight mt-[30px] leading-[1.7em]">
+                      {myProjectsItem?.detail}
+                    </div>
+                    {myProjectsItem?.url && (
+                      <div className="mt-[20px]">
+                        <Link href={myProjectsItem?.url} target="_blank">
+                          <button className="cursor-pointer rounded min-w-[200px] border border-blue-600 hover:bg-blue-700 active:bg-blue-800 py-[10px] px-[10px] text-[16px] text-blue-600 hover:text-white font-regular">
+                            เข้าสู่เว็บไซต์
+                          </button>
+                        </Link>
+                      </div>
+                    )}
+                  </motion.div>
+                </div>
+              </CustomTabPanel>
+            ),
+          )}
+        </Box>
       </div>
     </div>
   );

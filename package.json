@@ -1,18 +1,20 @@
 {
-  "name": "tenpcr",
+  "name": "tenpcr-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 6006",
+    "dev": "next dev -p 3004",
     "build": "next build",
-    "start": "next start -p 6006",
-    "lint": "next lint"
+    "cf:build": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare build && wrangler dev",
+    "deploy": "opennextjs-cloudflare build && wrangler deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@headlessui/react": "^2.2.4",
     "@mui/material": "^9.0.1",
+    "@opennextjs/cloudflare": "^1.20.2",
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.13.2",
     "framer-motion": "^12.23.0",
@@ -39,7 +41,8 @@
     "react-toastify": "^11.0.5",
     "redux": "^5.0.1",
     "slick-carousel": "^1.8.1",
-    "typewriter-effect": "^2.22.0"
+    "typewriter-effect": "^2.22.0",
+    "wrangler": "^4.115.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
